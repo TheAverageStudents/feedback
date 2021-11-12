@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.png">
+    </head>
+
+    <body>
+        <div id="topbar">
+            <center>
+                <span id="Logo">Anmol Vyas</span>
+            </center>
+        </div>
+
+        <div id="coverup"></div>
+
+        <br>
+
+        <div id="main">
+            <center>
+                <div id="Section">
+                    <form action="/feedback" method="post">
+                        <span id="Text1">I value your feedback 😊</span>
+                        <br/><br/><br/>
+                        <span id="Text2"> First, which website? </span>
+                        <select id="WebsiteSelect" name="ChosenSite">
+                            <option value="null"></option>
+                            <option value="Certificate Generator">Certificate Generator (c.gigipopi.repl.co)</option>
+                            <option value="About Me">About Me (me.gigipopi.repl.co)</option>
+                            <option value="Feedback Site">Feedback Site (feedback.gigipopi.repl.co)</option>
+                            <option value="Everything">Everything</option>
+                            <option value="Me">Me...</option>
+                        </select>
+                        <br/><br/><br/>
+                        <span id="Text3">Second, which page?</span>
+                        <select id="WebpageSelect" name="ChosenPage">
+                            <option></option>
+                        </select>
+                        <br/><br/><br/>
+                        <textarea id="FeedbackField" name="Feedback">Any feedback, suggestions or just a message...</textarea>
+                        <br/><br/>
+                        <span>Rate your experience:</span>
+                        <br/>
+                        <span id="emoji" name="emoji">🙂</span>
+                        <br/><br/>
+                        <input type="range" id="range" name="Range" min="1", max="5">
+                        <br/><br/>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </center>
+        </div>
+    </body>
+
+    <footer>
+        Thank you.
+    </footer>
+
+    <div id="scripts">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </div>
+</html>

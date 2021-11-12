@@ -1,0 +1,36 @@
+#topbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 1%;
+    margin-left: -1%;
+    background-image: linear-gradient(to right, #9818c0, #e2645b);
+}
+
+#coverup{
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    font-size: 30px;
+    margin-top: -1%;
+}
+
+#Logo{
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 400%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}

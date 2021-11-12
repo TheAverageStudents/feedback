@@ -1,0 +1,83 @@
+#topbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 1%;
+    margin-left: -1%;
+    background-image: linear-gradient(to right, #9818c0, #e2645b) ;
+}
+
+#coverup{
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    font-size: 30px;
+    margin-top: -1%;
+}
+
+#Logo{
+    color: white;
+    font-size: 40px;
+}
+
+#Section{
+    font-family: monospace;
+}
+
+#Text1{
+    font-size: 400%;
+    color: rgb(190, 130, 230);
+}
+
+#Text2{
+    font-size: 200%;
+}
+
+#Text3{
+    font-size: 200%;
+}
+
+#WebsiteSelect{
+    background-color: grey;
+    color: aqua;
+    font-size: 200%;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#WebpageSelect{
+    background-color: grey;
+    color: #e2645b;
+    font-size: 200%;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#FeedbackField{
+    background-color: grey;
+    border-radius: 25px;
+    color: rgb(224, 224, 224);
+    font-size: 300%;
+    height: 200px;
+    width: 40%;
+}
+
+#emoji{
+    font-size: 200%;
+}
+
+
+#submit{
+    height: 50px;
+    width: 25%;
+    border-radius: 25px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
